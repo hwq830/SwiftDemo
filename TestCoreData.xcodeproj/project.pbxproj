@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D57B8691A5D873800096A24 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D57B8681A5D873800096A24 /* Page.swift */; };
+		7D4B90DA1A655288007DA792 /* logo-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D4B90D91A655288007DA792 /* logo-30.png */; };
+		7D4B90DC1A65533D007DA792 /* ItemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B90DB1A65533D007DA792 /* ItemService.swift */; };
+		7D4B90DF1A655356007DA792 /* ToDoListDoneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B90DD1A655356007DA792 /* ToDoListDoneTableViewController.swift */; };
+		7D4B90E01A655356007DA792 /* ToDoListUndoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B90DE1A655356007DA792 /* ToDoListUndoTableViewController.swift */; };
+		7D4B90E21A655365007DA792 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B90E11A655365007DA792 /* Page.swift */; };
 		7D9163EF1A5C1AA800ED402F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9163EE1A5C1AA800ED402F /* AppDelegate.swift */; };
 		7D9163F21A5C1AA800ED402F /* TestCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D9163F01A5C1AA800ED402F /* TestCoreData.xcdatamodeld */; };
 		7D9163F71A5C1AA800ED402F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D9163F51A5C1AA800ED402F /* Main.storyboard */; };
@@ -18,11 +22,7 @@
 		7D9164141A5C1CEF00ED402F /* ToDoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9164131A5C1CEF00ED402F /* ToDoListTableViewController.swift */; };
 		7D9164161A5C1D0100ED402F /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9164151A5C1D0100ED402F /* AddItemViewController.swift */; };
 		7D91641D1A5C24D400ED402F /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91641C1A5C24D400ED402F /* CoreDataHelper.swift */; };
-		7DA3FE421A6399D70029BA86 /* logo-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DA3FE411A6399D70029BA86 /* logo-30.png */; };
 		7DA3FE441A64023F0029BA86 /* FirstTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA3FE431A64023F0029BA86 /* FirstTabBarController.swift */; };
-		7DA3FE461A6417EF0029BA86 /* ToDoListDoneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA3FE451A6417EF0029BA86 /* ToDoListDoneTableViewController.swift */; };
-		7DA3FE481A6418830029BA86 /* ToDoListUndoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA3FE471A6418830029BA86 /* ToDoListUndoTableViewController.swift */; };
-		7DD3FBCE1A5C35800010A205 /* ItemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD3FBCD1A5C35800010A205 /* ItemService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7D57B8681A5D873800096A24 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		7D4B90D91A655288007DA792 /* logo-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-30.png"; sourceTree = "<group>"; };
+		7D4B90DB1A65533D007DA792 /* ItemService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemService.swift; path = TestCoreData/ItemService.swift; sourceTree = "<group>"; };
+		7D4B90DD1A655356007DA792 /* ToDoListDoneTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToDoListDoneTableViewController.swift; path = TestCoreData/ToDoListDoneTableViewController.swift; sourceTree = "<group>"; };
+		7D4B90DE1A655356007DA792 /* ToDoListUndoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToDoListUndoTableViewController.swift; path = TestCoreData/ToDoListUndoTableViewController.swift; sourceTree = "<group>"; };
+		7D4B90E11A655365007DA792 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Page.swift; path = TestCoreData/Page.swift; sourceTree = "<group>"; };
 		7D9163E91A5C1AA800ED402F /* TestCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D9163ED1A5C1AA800ED402F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D9163EE1A5C1AA800ED402F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,11 +55,7 @@
 		7D9164131A5C1CEF00ED402F /* ToDoListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToDoListTableViewController.swift; path = TestCoreData/ToDoListTableViewController.swift; sourceTree = "<group>"; };
 		7D9164151A5C1D0100ED402F /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddItemViewController.swift; path = TestCoreData/AddItemViewController.swift; sourceTree = "<group>"; };
 		7D91641C1A5C24D400ED402F /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataHelper.swift; path = TestCoreData/CoreDataHelper.swift; sourceTree = "<group>"; };
-		7DA3FE411A6399D70029BA86 /* logo-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-30.png"; path = "../../../Users/huweiqi/Desktop/logo-30.png"; sourceTree = "<group>"; };
 		7DA3FE431A64023F0029BA86 /* FirstTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstTabBarController.swift; path = TestCoreData/FirstTabBarController.swift; sourceTree = "<group>"; };
-		7DA3FE451A6417EF0029BA86 /* ToDoListDoneTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListDoneTableViewController.swift; sourceTree = "<group>"; };
-		7DA3FE471A6418830029BA86 /* ToDoListUndoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListUndoTableViewController.swift; sourceTree = "<group>"; };
-		7DD3FBCD1A5C35800010A205 /* ItemService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +76,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D4B90D81A655288007DA792 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				7D4B90D91A655288007DA792 /* logo-30.png */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
 		7D9163E01A5C1AA800ED402F = {
 			isa = PBXGroup;
 			children = (
-				7DA3FE401A6399BE0029BA86 /* res */,
+				7D4B90D81A655288007DA792 /* res */,
 				7DD3FBCC1A5C355D0010A205 /* service */,
 				7DD3FBCB1A5C34EF0010A205 /* controller */,
 				7DD3FBCA1A5C349C0010A205 /* models */,
@@ -140,18 +148,10 @@
 		7D9164171A5C23CF00ED402F /* common */ = {
 			isa = PBXGroup;
 			children = (
-				7D57B8681A5D873800096A24 /* Page.swift */,
+				7D4B90E11A655365007DA792 /* Page.swift */,
 				7D91641C1A5C24D400ED402F /* CoreDataHelper.swift */,
 			);
 			name = common;
-			sourceTree = "<group>";
-		};
-		7DA3FE401A6399BE0029BA86 /* res */ = {
-			isa = PBXGroup;
-			children = (
-				7DA3FE411A6399D70029BA86 /* logo-30.png */,
-			);
-			name = res;
 			sourceTree = "<group>";
 		};
 		7DD3FBCA1A5C349C0010A205 /* models */ = {
@@ -165,11 +165,11 @@
 		7DD3FBCB1A5C34EF0010A205 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				7D4B90DD1A655356007DA792 /* ToDoListDoneTableViewController.swift */,
+				7D4B90DE1A655356007DA792 /* ToDoListUndoTableViewController.swift */,
 				7DA3FE431A64023F0029BA86 /* FirstTabBarController.swift */,
 				7D9164131A5C1CEF00ED402F /* ToDoListTableViewController.swift */,
 				7D9164151A5C1D0100ED402F /* AddItemViewController.swift */,
-				7DA3FE451A6417EF0029BA86 /* ToDoListDoneTableViewController.swift */,
-				7DA3FE471A6418830029BA86 /* ToDoListUndoTableViewController.swift */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -177,7 +177,7 @@
 		7DD3FBCC1A5C355D0010A205 /* service */ = {
 			isa = PBXGroup;
 			children = (
-				7DD3FBCD1A5C35800010A205 /* ItemService.swift */,
+				7D4B90DB1A65533D007DA792 /* ItemService.swift */,
 			);
 			name = service;
 			sourceTree = "<group>";
@@ -265,7 +265,7 @@
 				7D9163F71A5C1AA800ED402F /* Main.storyboard in Resources */,
 				7D9163FC1A5C1AA800ED402F /* LaunchScreen.xib in Resources */,
 				7D9163F91A5C1AA800ED402F /* Images.xcassets in Resources */,
-				7DA3FE421A6399D70029BA86 /* logo-30.png in Resources */,
+				7D4B90DA1A655288007DA792 /* logo-30.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,17 +283,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DD3FBCE1A5C35800010A205 /* ItemService.swift in Sources */,
+				7D4B90DC1A65533D007DA792 /* ItemService.swift in Sources */,
 				7D9164161A5C1D0100ED402F /* AddItemViewController.swift in Sources */,
-				7DA3FE461A6417EF0029BA86 /* ToDoListDoneTableViewController.swift in Sources */,
-				7D57B8691A5D873800096A24 /* Page.swift in Sources */,
+				7D4B90E21A655365007DA792 /* Page.swift in Sources */,
 				7D9164121A5C1AFC00ED402F /* Item.swift in Sources */,
 				7D9163F21A5C1AA800ED402F /* TestCoreData.xcdatamodeld in Sources */,
-				7DA3FE481A6418830029BA86 /* ToDoListUndoTableViewController.swift in Sources */,
 				7D9163EF1A5C1AA800ED402F /* AppDelegate.swift in Sources */,
 				7D91641D1A5C24D400ED402F /* CoreDataHelper.swift in Sources */,
 				7D9164141A5C1CEF00ED402F /* ToDoListTableViewController.swift in Sources */,
+				7D4B90E01A655356007DA792 /* ToDoListUndoTableViewController.swift in Sources */,
 				7DA3FE441A64023F0029BA86 /* FirstTabBarController.swift in Sources */,
+				7D4B90DF1A655356007DA792 /* ToDoListDoneTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
