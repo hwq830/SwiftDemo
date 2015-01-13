@@ -41,7 +41,7 @@
 		7D4B90DD1A655356007DA792 /* ToDoListDoneTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToDoListDoneTableViewController.swift; path = TestCoreData/ToDoListDoneTableViewController.swift; sourceTree = "<group>"; };
 		7D4B90DE1A655356007DA792 /* ToDoListUndoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToDoListUndoTableViewController.swift; path = TestCoreData/ToDoListUndoTableViewController.swift; sourceTree = "<group>"; };
 		7D4B90E11A655365007DA792 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Page.swift; path = TestCoreData/Page.swift; sourceTree = "<group>"; };
-		7D4B90E61A65552A007DA792 /* READ.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = READ.md; sourceTree = "<group>"; };
+		7D4B90E61A65552A007DA792 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7D9163E91A5C1AA800ED402F /* TestCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D9163ED1A5C1AA800ED402F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D9163EE1A5C1AA800ED402F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 		7D9163E01A5C1AA800ED402F = {
 			isa = PBXGroup;
 			children = (
-				7D4B90E61A65552A007DA792 /* READ.md */,
+				7D4B90E61A65552A007DA792 /* README.md */,
 				7D4B90D81A655288007DA792 /* res */,
 				7DD3FBCC1A5C355D0010A205 /* service */,
 				7DD3FBCB1A5C34EF0010A205 /* controller */,
